@@ -32,10 +32,10 @@ const Article = () => {
             <h1 className='font-bold text-4xl'>{article.title}</h1>
             <h3 className='pt-5'>{article.content}</h3>
 
-            <div className='flex flex-col justify-center'>
+            {/* <div className='flex flex-col justify-center'>
                 <CommentList comments={articleInfo.comments} />
                 <AddComment articleName={params.name} setArticleinfo={setArticleinfo} />
-            </div>
+            </div> */}
 
             <h1 className='font-bold mt-4 mb-4 text-grey-700 text-2xl pt-12 '>
                 Other Articles
