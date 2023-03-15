@@ -17,7 +17,6 @@ const Article = () => {
         const fetchData = async () => {
             axios.get(`http://localhost:4000/api/article/${params.name}`).then((res) => {
                 setArticleinfo(res.data)
-                console.log(articleInfo)
             })
         }
         fetchData()
