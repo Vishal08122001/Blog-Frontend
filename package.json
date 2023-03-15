@@ -17,7 +17,7 @@
   "scripts": {
     "react-scripts:start": "./node_modules/react-scripts/bin/react-scripts.js start",
     "start": "react-scripts start",
-    "build": "npm run build-css && react-scripts build",
+    "build": "react-scripts build",
     "build:css": "postcss src/styles/index.css -o src/styles/tailwind.css",
     "watch:css": "postcss src/styles/index.css -o src/styles/tailwind.css --watch",
     "test": "react-scripts test",
